@@ -43,6 +43,3 @@ for(i in 1:nrow(tc)){
     write(paste(tc[i,1],tc[i,7]-1,tc[i,7],".",".",tc[i,4],sep="\t"),file=opt$output,append=T)
 }
 
-
-
-
